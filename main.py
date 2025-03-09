@@ -8,7 +8,7 @@ for _ in range(sum_number_list):
 print(start_list)
 #v2
 while range(sum_number_list):
-
+    start_list.remove(0)
     start_list.insert(len(start_list), 0)
     sum_number_list -= 1
 else:
